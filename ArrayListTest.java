@@ -28,6 +28,7 @@ public class ArrayListTest {
         Vector<Integer> vector = new Vector<>();
         
         vector.setSize(5);
+        vector.add(2,20);
         vector.set(3,30);
         System.out.println(vector);
 
