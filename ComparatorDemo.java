@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 public class ComparatorDemo {
     public static void main(String[] args) {
         Comparator comp=(o1, o2)-> {

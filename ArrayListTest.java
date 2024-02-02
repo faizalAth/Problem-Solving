@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Vector;
 
 public class ArrayListTest {
     public static void main(String[] args) {
@@ -25,14 +24,5 @@ public class ArrayListTest {
         System.out.println();
         System.out.println("{*************************************************}");
         
-        Vector<Integer> vector = new Vector<>();
-        
-        vector.setSize(5);
-        vector.add(2,20);
-        vector.set(3,30);
-        System.out.println(vector);
-
-        
-
     }
 }
