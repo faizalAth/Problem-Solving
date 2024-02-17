@@ -1,3 +1,4 @@
+package other;
 import java.util.Stack;
 public class CheckBracket {
     public static void main(String[] args) {

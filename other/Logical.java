@@ -1,13 +1,17 @@
+package other;
 import java.math.BigDecimal;
 import java.util.*;
 
 public class Logical {
     public static void main(String...a) {
-
+        
         Map<Hello,Integer> map = new HashMap<>();
         List<Hello> list= Arrays.asList(new Hello("Faizal"),new Hello("Farman"),new Hello("Irshad"),new Hello("Faizal"));
         list.forEach(System.out::println);
+
     }
+
+
 
 }
 class Hello {

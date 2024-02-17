@@ -1,9 +1,11 @@
-import java.util.LinkedList;
+package other;
+
+import java.util.*;
 
 public class LinkedListDemo{
     public static void main(String[] args) {
         
-        LinkedList<String> list = new LinkedList<>();
+        List<String> list = new LinkedList<String>();
         list.add("Faizal");
         list.add("Irshad");
         list.add("Sajjad");

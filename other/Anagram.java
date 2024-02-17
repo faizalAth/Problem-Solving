@@ -1,3 +1,4 @@
+package other;
 public class Anagram {
     public static void main(String[] args) {
         System.out.println(checkAnagram("anagram","margana"));

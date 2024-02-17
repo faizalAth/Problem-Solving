@@ -1,3 +1,4 @@
+package other;
 import java.util.*;
 
 public class Comparision {
@@ -17,12 +18,12 @@ public class Comparision {
 
         start=0;
         end=0;
-        LinkedList<String> llist=new LinkedList<>();
+        LinkedList<String> llist=new LinkedList<String>();
         start=System.currentTimeMillis();
         int j=0;
         while(j<1_99_999){
-            llist.add(String.valueOf(j));
-            j++; 
+            llist.add(Integer.toString(i));
+            j++;
         }
         
         end=System.currentTimeMillis();
