@@ -1,7 +1,12 @@
 package other;
 public class Anagram {
     public static void main(String[] args) {
-        System.out.println(checkAnagram("anagram","margana"));
+        Integer i1=1250;
+        Integer i2=i1;
+        Integer i3=i1;
+        System.out.println(i1 == i2);
+        System.out.println(i2 == i3);
+        //System.out.println(checkAnagram("anagram","maragna"));
     }
     public static boolean checkAnagram(String first,String second){
         
@@ -27,5 +32,4 @@ public class Anagram {
         }
        return String.valueOf(ch);
     }
-    
 }
