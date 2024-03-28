@@ -3,6 +3,9 @@ import java.util.Map;
 import java.util.HashMap;
 public class FindDuplicate {
     public static void main(String[] args) {
+        float x=5;
+        int y=2;
+        System.out.println( x/y);
         findDuplicate("Faizal Athaniya");
     }
 
